@@ -15,9 +15,11 @@ Jeová Sousa Barbosa [jeovasb00](https://github.com/jeovasb00).
 
 Ranor Victor [ranorvictor](https://github.com/ranorvictor).
 
+Raphael Sales [raphaelsales](https://github.com/raphaelsales).
+
 Victor Emanuel Campelo [Victorcampelo14](https://github.com/Victorcampelo14).
 
-Raphael Sales [raphaelsales](https://github.com/raphaelsales).
+Pedro Trivelato Ferreira [Ptrivelato](https://github.com/Ptrivelato).
 
 ### Público-alvo
 Crianças, idosos e quem deseja aprender informática.
