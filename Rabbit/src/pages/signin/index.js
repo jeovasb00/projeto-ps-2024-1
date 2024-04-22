@@ -70,10 +70,6 @@ const styles = StyleSheet.create({
         paddingEnd: '5%',
         alignContent: 'center',
     },
-    title: {
-        fontSize: 20,
-        marginTop: 30,
-    },
     input: {
         borderRadius: 10,
         borderWidth: 1,
@@ -83,8 +79,9 @@ const styles = StyleSheet.create({
         width: '90%',
         alignSelf: 'center',
         fontSize: 20,
-        textAlign: 'center',
+        paddingLeft: '5%',
         textAlignVertical: 'center',
+        backgroundColor: 'lightgrey',
     },
     button: {
         backgroundColor: '#F4BC86',
