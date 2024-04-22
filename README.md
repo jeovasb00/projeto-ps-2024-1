@@ -238,48 +238,362 @@ Este diagrama de caso de uso descreve as interações entre o usuário e a tela 
 
 
 ### Requisitos Funcionais
-- [ ] RF01 - Gerenciamento de Usuários  [Jeova Barbosa](https://github.com/jeovasb00/)  Revisado por [Raphael Sales de Souza](https://github.com/raphaelsales)
-- [ ] RF02 - Realizar login [Jeova Barbosa](https://github.com/jeovasb00/) Revisado por [Victor Campelo](https://github.com/victorcampelo14/)
-- [ ] RF03 - Estrutura de Conteúdo [Jeova Barbosa](https://github.com/jeovasb00/) Revisado por [Raphael Sales de Souza](https://github.com/raphaelsales)
-- [ ] RF04 - Suporte para Comunicação e Colaboração [ranorvictor](https://github.com/ranorvictor) Revisado por
-- [ ] RF05 - APIs para Clientes Frontend [Jeova Barbosa](https://github.com/jeovasb00/) Revisado por
-- [ ] RF06 - Monitoramento e Logging [raphaelsales](https://github.com/raphaelsales) Revisado por
-- [ ] RF13 - Interface Intuitiva [Ptrivelato](https://github.com/Ptrivelato) Revisado por
-- [ ] RF14 - Conteúdo Educativo Abrangente [HeloCris](https://github.com/HeloCris) Revisado por
-- [ ] RF15 - Métodos de Ensino Interativos [HeloCris](https://github.com/HeloCris) Revisado por
-- [ ] RF16 - Progressão Personalizada [Victorcampelo14](https://github.com/Victorcampelo14) Revisado por
-- [ ] RF17 - Suporte Multimídia [Victorcampelo14](https://github.com/Victorcampelo14) Revisado por
-- [ ] RF18 - Gamificação [Ptrivelato](https://github.com/Ptrivelato) Revisado por
-- [ ] RF19 - Comunidade e Colaboração
-- [ ] RF20 - Acesso Multiplataforma
-- [ ] RF21 - Recursos de Acessibilidade
-- [ ] RF22 - Atualizações e Suporte Contínuo
-- [ ] RF23 - Sistema de Avaliação e Progressão
+- [ X ] RF01 - Gerenciamento de Usuários : [Jeova Barbosa](https://github.com/jeovasb00/) - Revisado por [Raphael Sales de Souza](https://github.com/raphaelsales)
+- [ X ] RF02 - Realizar login: [Jeova Barbosa](https://github.com/jeovasb00/) - Revisado por [Raphael Sales de Souza](https://github.com/raphaelsales)
+- [ X ] RF03 - Estrutura de Conteúdo : [Jeova Barbosa](https://github.com/jeovasb00/) - Revisado por [Raphael Sales de Souza](https://github.com/raphaelsales)
+- [ ] RF04 - Suporte para Comunicação e Colaboração: [ranorvictor](https://github.com/ranorvictor) - Revisado por
+- [ ] RF05 - APIs para Clientes Frontend: [Jeova Barbosa](https://github.com/jeovasb00/) - Revisado por
+- [ ] RF06 - Monitoramento e Logging: [raphaelsales](https://github.com/raphaelsales) - Revisado por
+- [ ] RF13 - Interface Intuitiva: [Ptrivelato](https://github.com/Ptrivelato) - Revisado por
+- [ ] RF14 - Conteúdo Educativo Abrangente: [HeloCris](https://github.com/HeloCris) - Revisado por
+- [ ] RF15 - Métodos de Ensino Interativos: [HeloCris](https://github.com/HeloCris) - Revisado por
+- [ ] RF16 - Progressão Personalizada: [Victorcampelo14](https://github.com/Victorcampelo14) - Revisado por
+- [ ] RF17 - Suporte Multimídia: [Victorcampelo14](https://github.com/Victorcampelo14) - Revisado por
+- [ ] RF18 - Gamificação: [Ptrivelato](https://github.com/Ptrivelato) - Revisado por
+- [ ] RF19 - Comunidade e Colaboração: [ranorvictor](https://github.com/ranorvictor) - Revisado por
+- [ ] RF20 - Recursos de Acessibilidade [Ptrivelato](https://github.com/Ptrivelato) Revisado por
+- [ ] RF21 - Sistema de Avaliação e Progressão [ranorvictor](https://github.com/ranorvictor) Revisado por
  
 ### Requisitos Não Funcionais
-- [ ] RNF24 - Segurança
-- [ ] RNF25 - Escalabilidade
-- [ ] RNF26 - Desempenho
-- [ ] RNF27 - Confiabilidade
-- [ ] RNF28 - Flexibilidade e Manutenibilidade
-- [ ] RNF29 - Tecnologias e Ferramentas
-- [ ] RNF30 - Desempenho e Escalabilidade
-- [ ] RNF31 - Segurança
-- [ ] RNF32 - Confiabilidade
-- [ ] RNF33 - Compatibilidade
+- [ ] RNF22 - Segurança: [jeovasb00](https://github.com/jeovasb00) - Revisado por
+- [ ] RNF23 - Confiabilidade: [raphaelsales](https://github.com/raphaelsales) - Revisado por
+- [ ] RNF24 - Flexibilidade e Manutenibilidade: [HeloCris](https://github.com/HeloCris) Revisado por
 
- [HeloCris](https://github.com/HeloCris) Revisado por
+- [ ] RNF25 - Tecnologias e Ferramentas: [jeovasb00](https://github.com/jeovasb00) - Revisado por
 
-[jeovasb00](https://github.com/jeovasb00) Revisado por
+- [ ] RNF26 - Desempenho e Escalabilidade: [Ptrivelato](https://github.com/Ptrivelato) - Revisado por
+- [ ] RNF27 - Compatibilidade : [Victorcampelo14](https://github.com/Victorcampelo14) - Revisado por
+
+ ---
+
+## RF01 - Gerenciamento de usuario
+
+<br/>
+
+#### Autor: [Victor Campelo](https://github.com/victorcampelo14/)
+
+#### Revisor: [Helorrayne Cristine](https://github.com/HeloCris)
+
+<br/>
+
+| Item            | Descrição                                                                           |
+| --------------- | ----------------------------------------------------------------------------------- |
+| Caso de uso     | RF01 - Cadastrar usuário;                                                       |
+| Resumo          | Cadastrar um usuário no sistema; |
+| Ator principal  | Usuário;                                                    |
+| Ator secundário | -                                                                                   |
+| Pré-condição    | -                          |
+| Pós-condição    |                                                                                    |
+
+<br/>
+
+#### Fluxo principal
+
+| Passos  | Descrição                                           |
+| ------- | --------------------------------------------------- |
+| Passo 1 | O usuário digita seus dados cadastrais nos campos adequados.            |
+| Passo 2 | Ao clicar no botão 'cadastrar' no final do formulário, o usuário é cadastrado. |
+
+<br/>
+
+#### Opções dos usúarios
+
+| Opção            | Descrição | Atalho |
+| ---------------- | ------------ | --------- |
+| Cadastrar | Cadastra um novo usuário          | Não possui       |
+| Realizar login             | Redireciona o usuário para a tela de login          | Não possui       |
+
+<br/>
+
+#### Relatório de usuário
+
+| Campo                      | Descrição                                                             | Formato |
+| -------------------------- | --------------------------------------------------------------------- | ------- |
+| Cadastro realizado com sucesso | Informa que o cadastro foi efetuado com sucesso  | Texto   |
+| Erro ao realizar o cadastro | Informa que ocorreu um erro durante o cadastro  | Texto   |
+| Senha e confirmar senha não conferem | Informa a senha e a confirmação da senha estão diferentes  | Texto   |
+<br/>
 
 
-[ranorvictor](https://github.com/ranorvictor) Revisado por
+
+| Item            | Descrição                                                                           |
+| --------------- | ----------------------------------------------------------------------------------- |
+| Caso de uso     | RF01 - Cadastrar prestador de serviço;                                                       |
+| Resumo          | Cadastrar um prestador de serviço ao sistema; |
+| Ator principal  | Prestador de serviço;                                                    |
+| Ator secundário | -                                                                                   |
+| Pré-condição    | -                          |
+| Pós-condição    |                                          |
+
+<br/>
+
+#### Fluxo principal
+
+| Passos  | Descrição                                           |
+| ------- | --------------------------------------------------- |
+| Passo 1 | O prestador digita seus dados cadastrais nos campos adequados.            |
+| Passo 2 | Após preencher seus dados o prestador deve marcar a opção 'sou um prestador de serviços'. |
+| Passo 3 | Ao clicar no botão 'cadastrar' no final do formulário, o prestador de serviços é cadastrado. |
+
+<br/>
+
+#### Campos do formulário
+
+| Campo            | Obrigatório? | Editável? | Formato      |
+| ---------------- | ------------ | --------- | ------------ |
+| Nome  | Sim          | Sim       | Texto        |
+| Email             | Sim          | Sim       | Email         |
+| Senha            | Sim          | Sim       | Password        |
+| Confirmar senha  | Sim          | Não       | Password        |
+
+<br/>
+
+#### Opções dos usúarios
+
+| Opção            | Descrição | Atalho |
+| ---------------- | ------------ | --------- |
+| Cadastrar | Cadastra um novo prestador de serviço          | Não possui       |
+| Realizar login             | Redireciona o prestador para a tela de login          | Não possui       |
+
+<br/>
+
+#### Relatório de usuário
+
+| Campo                      | Descrição                                                             | Formato |
+| -------------------------- | --------------------------------------------------------------------- | ------- |
+| Cadastro realizado com sucesso | Informa que o cadastro foi efetuado com sucesso  | Texto   |
+| Erro ao realizar o cadastro | Informa que ocorreu um erro durante o cadastro  | Texto   |
+| Senha e confirmar senha não conferem | Informa a senha e a confirmação da senha estão diferentes  | Texto   |
+
+<br/>
+
+### US01 - Cadastrar usuário
+
+Prestador de serviços
+
+| User Story | Critério de aceitação |
+| --------- | --------------------- |
+| Enquanto um prestador de serviços eu preciso ser capaz de criar uma conta para que eu possa oferecer meus seerviços | O prestador de serviços deve poder se cadastrar no sistema.|
+
+<br />
+
+### Prototipação de telas
+Tela de cadastro com marcação da opção 'Sou um prestador de serviços'
+
+<br />
+---
+
+## RF01 - Cadastrar usuário
+
+<br/>
+
+#### Autor: [Ranor Victor](https://github.com/ranorvictor/)
+
+#### Revisor: [Raphael Sales de Souza](https://github.com/raphaelsales)
+
+<br/>
+
+| Item            | Descrição                                                                           |
+| --------------- | ----------------------------------------------------------------------------------- |
+| Caso de uso     | RF01 - Cadastrar usuário;                                                       |
+| Resumo          | Cadastrar um usuário no sistema; |
+| Ator principal  | Usuário;                                                    |
+| Ator secundário | -                                                                                   |
+| Pré-condição    | -                          |
+| Pós-condição    |                                                                                    |
+
+<br/>
+
+#### Fluxo principal
+
+| Passos  | Descrição                                           |
+| ------- | --------------------------------------------------- |
+| Passo 1 | O usuário digita seus dados cadastrais nos campos adequados.            |
+| Passo 2 | Ao clicar no botão 'cadastrar' no final do formulário, o usuário é cadastrado. |
+
+<br/>
+
+#### Opções dos usúarios
+
+| Opção            | Descrição | Atalho |
+| ---------------- | ------------ | --------- |
+| Cadastrar | Cadastra um novo usuário          | Não possui       |
+| Realizar login             | Redireciona o usuário para a tela de login          | Não possui       |
+
+<br/>
+
+#### Relatório de usuário
+
+| Campo                      | Descrição                                                             | Formato |
+| -------------------------- | --------------------------------------------------------------------- | ------- |
+| Cadastro realizado com sucesso | Informa que o cadastro foi efetuado com sucesso  | Texto   |
+| Erro ao realizar o cadastro | Informa que ocorreu um erro durante o cadastro  | Texto   |
+| Senha e confirmar senha não conferem | Informa a senha e a confirmação da senha estão diferentes  | Texto   |
+<br/>
+
+ ### US02 - Cadastrar usuário
+
+Usuário
+
+| User Story | Critério de aceitação |
+| --------- | --------------------- |
+| Enquanto um usuário do aplicativo eu preciso ser capaz de me cadastrar no sistema para que eu possa analisar e solicitar serviços.| O usuário deve poder se cadastrar no sistema|
+
+<br />
+
+### Prototipação de telas
+Tela de cadastro sem marcação da opção 'Sou um prestador de serviços'
 
 
-[raphaelsales](https://github.com/raphaelsales) Revisado por
+<br/>
+
+---
+
+## RF02 - Realizar Login
+
+<br/>
+
+#### Autor: [Ranor Victor](https://github.com/ranorvictor/)
+
+#### Revisor: [Helorrayne Cristine](https://github.com/HeloCris/)
+
+<br/>
+
+| Item            | Descrição                                                                           |
+| --------------- | ----------------------------------------------------------------------------------- |
+| Caso de uso     | RF03 - Realizar Login;                                                       |
+| Resumo          | Realizar o login dos atores; |
+| Ator principal  | Usuario/Prestador de serviço;                                                    |
+| Ator secundário | -                                                                             |
+| Pré-condição    | O(s) ator(es) devem ter um cadastro no sistema.                         |
+| Pós-condição    | Os dados do(s) ator(er) devem estar corretos                                                                                      |
+
+<br/>
+
+#### Fluxo principal
+
+| Passos  | Descrição                                           |
+| ------- | --------------------------------------------------- |
+| Passo 1 | O(s) Ator(es) informam seus dados           |
+| Passo 2 | A verificação das credenciais é efetuada |
+| Passo 3 | A sessão é iniciada em caso de login correto. |
+
+<br/>
+
+#### Fluxo alternativo
+
+| Passos  | Descrição                                           |
+| ------- | --------------------------------------------------- |
+| Passo 1 | O(s) Ator(es) informam seus dados            |
+| Passo 2 | A verificação das credenciais é efetuada |
+| Passo 3 | A sessão não é iniciada e o usuário é redirecionado para a tela de login. |
+
+<br/>
+
+#### Campos do formulário
+
+| Campo            | Obrigatório? | Editável? | Formato      |
+| ---------------- | ------------ | --------- | ------------ |
+| Email             | Sim          | Sim       | Email         |
+| Senha            | Sim          | Sim       | Password        |
+
+<br/>
+
+#### Opções dos usúarios
+
+| Opção            | Descrição | Atalho |
+| ---------------- | ------------ | --------- |
+| Login | Valida as credenciais do ator          | Não possui       |
+| Cadastre-se             | Redireciona o usuario para a tela de cadastro          | Não possui       |
+
+<br />
+
+#### Relatório de usuário
+
+| Campo                      | Descrição                                                             | Formato |
+| -------------------------- | --------------------------------------------------------------------- | ------- |
+| Email e/ou senha incorretos | Informa que as credenciais são inválidas  | Texto   |
+
+<br />
+
+### US03 - Realizar Login
+
+Prestador de serviço/Usuário
+
+|  User Story                                        | Critério de aceitação                                 |
+| ------------------------------------------------- | ----------------------------------------------------- |
+| Enquanto um ator do aplicativo eu preciso ser capaz de realizar login, para que **eu possa ter acesso as funcionalidades do sistema | Certifique-se de que o usuário é capaz de acessar o aplicativo. |
+
+<br/>
+
+### Prototipação de telas
+Tela de login
 
 
- [Victorcampelo14](https://github.com/Victorcampelo14) Revisado por
 
 
-[Ptrivelato](https://github.com/Ptrivelato) Revisado por
+<br />
+
+---
+
+---
+
+## RF03 - Estrutura de  conteúdo
+
+<br />
+
+#### Autor: [Pedro Trivelato](https://github.com/Ptrivelato)
+#### Revisor: [Raphael Sales](https://github.com/raphaelsales)
+
+<br />
+
+
+|Item             | Descrição                                                           |
+| --------------- | -----------------------------------------------------------------   |
+| Caso de uso     | Cadastrar conteúdo                                                  |
+| Resumo          | É esperado que o prestador de serviços tenha a possibilidade de inserir seus conteúdos como videoaulas|
+| Ator principal  | prestador de serviço                                 |
+| Ator secundário | -                                                          |
+| Pré-condição    | É necessário que o prestador de serviço tenha efetuado o login.            |
+| Pós-condição    | Todos os campos do formulário de cadastro de serviço devem ser preenchidos corretamente.  |
+
+<br />
+
+#### Fluxo principal
+
+| Passos  | Descrição                                                                   |
+| ------- | -----------------------------------------                                   |
+| Passo 1 | Entrar na seção de cadastro de meus conteudos                                         |
+| Passo 2 | Clicar no botão "Inserir novo conteudo"                                            |
+| Passo 3 | Inserir os dados adequados nos campos do formulário                                                  |
+| Passo 5 | Clicar em salvar conteudo                                                                     |
+<br />
+
+#### Campos do formulário
+
+| Campo            | Obrigatório? | Editável? | Formato      |
+| ---------------- | ------------ | --------- | ------------ |
+| Nome do serviço             | Sim          | Sim       | Texto        |
+| Tipo             | Sim          | Sim       | Texto        |
+| Descrição            | Sim          | Sim       | Texto     |
+
+
+<br />
+
+#### Opções do usuário
+
+
+| Opção         | Descrição                 | Atalho |
+| ------------- | ------------------------- | ------ |
+| Adicionar conteudo | Cadastra um conteudo no sistema | Não possui       |
+| Cancelar | Retorna Para a tela de meus serviços | Não possui       |
+<br />
+
+#### Relatório de usuário
+
+| Campo                      | Descrição                                                             | Formato |
+| -------------------------- | --------------------------------------------------------------------- | ------- |
+| Conteudo inserido com sucesso | Isso confirma e garante todo êxito na operação de inserção de serviço   | Texto   |
+| Erro ao inserir conteuddo | Informa que ocorreu um erro ao inserir o serviço   | Texto   |
+| Dados incorretos | Informa que os dados inseridos são inválidos   | Texto   |
+<br />
