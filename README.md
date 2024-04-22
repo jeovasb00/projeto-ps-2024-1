@@ -234,3 +234,52 @@ Este diagrama de caso de uso descreve as interações entre o usuário e a tela 
   - Fluxo Alternativo:
     1. O sistema não registra a avaliação da lição.
 
+## Requisitos
+
+
+### Requisitos Funcionais
+- [ ] RF01 - Gerenciamento de Usuários  [Jeova Barbosa](https://github.com/jeovasb00/)  Revisado por [Raphael Sales de Souza](https://github.com/raphaelsales)
+- [ ] RF02 - Realizar login [Jeova Barbosa](https://github.com/jeovasb00/) Revisado por [Victor Campelo](https://github.com/victorcampelo14/)
+- [ ] RF03 - Estrutura de Conteúdo [Jeova Barbosa](https://github.com/jeovasb00/) Revisado por [Raphael Sales de Souza](https://github.com/raphaelsales)
+- [ ] RF04 - Suporte para Comunicação e Colaboração [ranorvictor](https://github.com/ranorvictor) Revisado por
+- [ ] RF05 - APIs para Clientes Frontend [Jeova Barbosa](https://github.com/jeovasb00/) Revisado por
+- [ ] RF06 - Monitoramento e Logging [raphaelsales](https://github.com/raphaelsales) Revisado por
+- [ ] RF13 - Interface Intuitiva [Ptrivelato](https://github.com/Ptrivelato) Revisado por
+- [ ] RF14 - Conteúdo Educativo Abrangente [HeloCris](https://github.com/HeloCris) Revisado por
+- [ ] RF15 - Métodos de Ensino Interativos [HeloCris](https://github.com/HeloCris) Revisado por
+- [ ] RF16 - Progressão Personalizada [Victorcampelo14](https://github.com/Victorcampelo14) Revisado por
+- [ ] RF17 - Suporte Multimídia [Victorcampelo14](https://github.com/Victorcampelo14) Revisado por
+- [ ] RF18 - Gamificação [Ptrivelato](https://github.com/Ptrivelato) Revisado por
+- [ ] RF19 - Comunidade e Colaboração
+- [ ] RF20 - Acesso Multiplataforma
+- [ ] RF21 - Recursos de Acessibilidade
+- [ ] RF22 - Atualizações e Suporte Contínuo
+- [ ] RF23 - Sistema de Avaliação e Progressão
+ 
+### Requisitos Não Funcionais
+- [ ] RNF24 - Segurança
+- [ ] RNF25 - Escalabilidade
+- [ ] RNF26 - Desempenho
+- [ ] RNF27 - Confiabilidade
+- [ ] RNF28 - Flexibilidade e Manutenibilidade
+- [ ] RNF29 - Tecnologias e Ferramentas
+- [ ] RNF30 - Desempenho e Escalabilidade
+- [ ] RNF31 - Segurança
+- [ ] RNF32 - Confiabilidade
+- [ ] RNF33 - Compatibilidade
+
+ [HeloCris](https://github.com/HeloCris) Revisado por
+
+[jeovasb00](https://github.com/jeovasb00) Revisado por
+
+
+[ranorvictor](https://github.com/ranorvictor) Revisado por
+
+
+[raphaelsales](https://github.com/raphaelsales) Revisado por
+
+
+ [Victorcampelo14](https://github.com/Victorcampelo14) Revisado por
+
+
+[Ptrivelato](https://github.com/Ptrivelato) Revisado por
