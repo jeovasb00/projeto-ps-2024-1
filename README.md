@@ -238,7 +238,7 @@ Este diagrama de caso de uso descreve as interações entre o usuário e a tela 
 
 
 ### Requisitos Funcionais
-- [ X ] RF01 - Gerenciamento de Usuários : [Jeova Barbosa](https://github.com/jeovasb00/) - Revisado por [Raphael Sales de Souza](https://github.com/raphaelsales)
+- [ X ] RF01 - Cadastro de Usuários : [Jeova Barbosa](https://github.com/jeovasb00/) - Revisado por [Raphael Sales de Souza](https://github.com/raphaelsales)
 - [ X ] RF02 - Realizar login: [Jeova Barbosa](https://github.com/jeovasb00/) - Revisado por [Raphael Sales de Souza](https://github.com/raphaelsales)
 - [ X ] RF03 - Estrutura de Conteúdo : [Jeova Barbosa](https://github.com/jeovasb00/) - Revisado por [Raphael Sales de Souza](https://github.com/raphaelsales)
 - [ ] RF04 - Suporte para Comunicação e Colaboração: [ranorvictor](https://github.com/ranorvictor) - Revisado por
@@ -266,24 +266,14 @@ Este diagrama de caso de uso descreve as interações entre o usuário e a tela 
 
  ---
 
-## RF01 - Gerenciamento de usuario
+## RF01 - Cadastro de usuario
 
 <br/>
 
-#### Autor: [Victor Campelo](https://github.com/victorcampelo14/)
+#### Autor: [Jeová Barbosa](https://github.com/jeovasb00/)
 
 #### Revisor: [Helorrayne Cristine](https://github.com/HeloCris)
 
-<br/>
-
-| Item            | Descrição                                                                           |
-| --------------- | ----------------------------------------------------------------------------------- |
-| Caso de uso     | RF01 - Cadastrar usuário;                                                       |
-| Resumo          | Cadastrar um usuário no sistema; |
-| Ator principal  | Usuário;                                                    |
-| Ator secundário | -                                                                                   |
-| Pré-condição    | -                          |
-| Pós-condição    |                                                                                    |
 
 <br/>
 
@@ -302,28 +292,6 @@ Este diagrama de caso de uso descreve as interações entre o usuário e a tela 
 | ---------------- | ------------ | --------- |
 | Cadastrar | Cadastra um novo usuário          | Não possui       |
 | Realizar login             | Redireciona o usuário para a tela de login          | Não possui       |
-
-<br/>
-
-#### Relatório de usuário
-
-| Campo                      | Descrição                                                             | Formato |
-| -------------------------- | --------------------------------------------------------------------- | ------- |
-| Cadastro realizado com sucesso | Informa que o cadastro foi efetuado com sucesso  | Texto   |
-| Erro ao realizar o cadastro | Informa que ocorreu um erro durante o cadastro  | Texto   |
-| Senha e confirmar senha não conferem | Informa a senha e a confirmação da senha estão diferentes  | Texto   |
-<br/>
-
-
-
-| Item            | Descrição                                                                           |
-| --------------- | ----------------------------------------------------------------------------------- |
-| Caso de uso     | RF01 - Cadastrar prestador de serviço;                                                       |
-| Resumo          | Cadastrar um prestador de serviço ao sistema; |
-| Ator principal  | Prestador de serviço;                                                    |
-| Ator secundário | -                                                                                   |
-| Pré-condição    | -                          |
-| Pós-condição    |                                          |
 
 <br/>
 
@@ -357,16 +325,6 @@ Este diagrama de caso de uso descreve as interações entre o usuário e a tela 
 
 <br/>
 
-#### Relatório de usuário
-
-| Campo                      | Descrição                                                             | Formato |
-| -------------------------- | --------------------------------------------------------------------- | ------- |
-| Cadastro realizado com sucesso | Informa que o cadastro foi efetuado com sucesso  | Texto   |
-| Erro ao realizar o cadastro | Informa que ocorreu um erro durante o cadastro  | Texto   |
-| Senha e confirmar senha não conferem | Informa a senha e a confirmação da senha estão diferentes  | Texto   |
-
-<br/>
-
 ### US01 - Cadastrar usuário
 
 Prestador de serviços
@@ -381,73 +339,6 @@ Prestador de serviços
 Tela de cadastro com marcação da opção 'Sou um prestador de serviços'
 
 <br />
----
-
-## RF01 - Cadastrar usuário
-
-<br/>
-
-#### Autor: [Ranor Victor](https://github.com/ranorvictor/)
-
-#### Revisor: [Raphael Sales de Souza](https://github.com/raphaelsales)
-
-<br/>
-
-| Item            | Descrição                                                                           |
-| --------------- | ----------------------------------------------------------------------------------- |
-| Caso de uso     | RF01 - Cadastrar usuário;                                                       |
-| Resumo          | Cadastrar um usuário no sistema; |
-| Ator principal  | Usuário;                                                    |
-| Ator secundário | -                                                                                   |
-| Pré-condição    | -                          |
-| Pós-condição    |                                                                                    |
-
-<br/>
-
-#### Fluxo principal
-
-| Passos  | Descrição                                           |
-| ------- | --------------------------------------------------- |
-| Passo 1 | O usuário digita seus dados cadastrais nos campos adequados.            |
-| Passo 2 | Ao clicar no botão 'cadastrar' no final do formulário, o usuário é cadastrado. |
-
-<br/>
-
-#### Opções dos usúarios
-
-| Opção            | Descrição | Atalho |
-| ---------------- | ------------ | --------- |
-| Cadastrar | Cadastra um novo usuário          | Não possui       |
-| Realizar login             | Redireciona o usuário para a tela de login          | Não possui       |
-
-<br/>
-
-#### Relatório de usuário
-
-| Campo                      | Descrição                                                             | Formato |
-| -------------------------- | --------------------------------------------------------------------- | ------- |
-| Cadastro realizado com sucesso | Informa que o cadastro foi efetuado com sucesso  | Texto   |
-| Erro ao realizar o cadastro | Informa que ocorreu um erro durante o cadastro  | Texto   |
-| Senha e confirmar senha não conferem | Informa a senha e a confirmação da senha estão diferentes  | Texto   |
-<br/>
-
- ### US02 - Cadastrar usuário
-
-Usuário
-
-| User Story | Critério de aceitação |
-| --------- | --------------------- |
-| Enquanto um usuário do aplicativo eu preciso ser capaz de me cadastrar no sistema para que eu possa analisar e solicitar serviços.| O usuário deve poder se cadastrar no sistema|
-
-<br />
-
-### Prototipação de telas
-Tela de cadastro sem marcação da opção 'Sou um prestador de serviços'
-
-
-<br/>
-
----
 
 ## RF02 - Realizar Login
 
@@ -516,7 +407,7 @@ Tela de cadastro sem marcação da opção 'Sou um prestador de serviços'
 
 <br />
 
-### US03 - Realizar Login
+### US02 - Realizar Login
 
 Prestador de serviço/Usuário
 
